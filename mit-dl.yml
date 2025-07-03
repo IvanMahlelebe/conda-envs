@@ -1,0 +1,10 @@
+name: mit-dl
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - seaborn
+  - plotly
+  - nbformat
+  pip:
+    - tensorflow<2.11

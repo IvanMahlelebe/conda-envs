@@ -1,0 +1,23 @@
+name: dl_papers
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - plotly
+  - pandas
+  - nbformat
+  - numpy
+  - scipy
+  - ipykernel
+  - transformers
+  - tqdm
+  - docopt
+  - nltk
+  - torchvision
+  - pip
+  - pip:
+    - sentencepiece
+    - sacrebleu
+    - tensorboard

@@ -1,0 +1,23 @@
+name: analytics
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pymc
+  - arviz
+  - pytorch
+  - plotly
+  - pandas
+  - openpyxl
+  - statsmodels
+  - imbalanced-learn
+  - nbformat
+  - numpy
+  - seaborn
+  - scipy
+  - ipykernel
+  - tqdm
+  - scikit-learn
+  - matplotlib
+  - pip
