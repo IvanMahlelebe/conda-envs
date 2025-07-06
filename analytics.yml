@@ -1,6 +1,5 @@
 name: analytics
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - python
