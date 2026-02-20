@@ -1,18 +1,20 @@
 name: maths
 channels:
   - conda-forge
-  - pytorch
+  # - pytorch
   - defaults
 
 dependencies:
   # Core numerical + symbolic math
-  - python=3.11
+  - python=3.13
   - numpy
   - scipy
   - sympy
   - pandas
   - matplotlib
   - numba
+  - openpyxl
+  - missingno
 
   # Differential equations & modelling
   - pyomo
@@ -25,16 +27,23 @@ dependencies:
   - holoviews
   - hvplot
 
+  # quantitative finance
+  - yfinance
+  - pandas-datareader
+  - statsmodels
+  - arch-py
+  - pyreadr
+
   # Machine learning / neural networks
-  - pytorch
+  # - pytorch
   # - torchvision
   # - torchaudio
-  - cpuonly  # replace with pytorch-cuda=12.1 if you have a GPU
+  # - cpuonly  # replace with pytorch-cuda=12.1 if you have a GPU
 
   # Productivity & environment
   - jupyterlab
   - ipython
   - tqdm
   - pip
-  - pip:
-    - manim   # optional: for visualising mathematical concepts
+  # - pip:
+  #   - manim   # optional: for visualising mathematical concepts
